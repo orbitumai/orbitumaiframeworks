@@ -359,6 +359,12 @@ html, body { width:100%; height:100%; overflow:hidden; background:var(--orbit-bl
       <div class="nav-item" onclick="show('hosting')">
         <span class="icon">◉</span> Infrastructure
       </div>
+      <div class="nav-item" onclick="show('skills')">
+        <span class="icon">◐</span> Skills
+      </div>
+      <div class="nav-item" onclick="show('profile')">
+        <span class="icon">◑</span> Shuv Profile
+      </div>
       <div class="nav-divider"></div>
       <div class="nav-item" onclick="show('linkedin')">
         <span class="icon">◈</span> LinkedIn Post
@@ -1055,6 +1061,382 @@ In practice I'd implement this in n8n with AI agent nodes and conditional branch
       <div style="background:rgba(45,106,79,.07);border:1px solid rgba(45,106,79,.2);border-radius:var(--r-md);padding:16px 20px;font-family:var(--f-body);font-size:13px;color:rgba(247,245,242,.6);line-height:1.65;">
         <strong style="color:#6DCF8A;font-family:var(--f-display);font-size:12px;font-weight:700;letter-spacing:1px;">WHY SELF-HOSTED:</strong>&nbsp; Full control over data, no per-seat SaaS costs at scale, ability to run custom MCP servers and internal tools that can't live in the cloud, and the freedom to configure exactly how AI agents communicate across services.
       </div>
+    </div>
+
+    <!-- ── SKILLS ─────────────────────────────────────────────── -->
+    <div id="panel-skills" class="panel">
+      <div class="panel-eyebrow">Subhashish Chowdhury</div>
+      <div class="panel-title">Skills & Expertise</div>
+      <div class="panel-sub">25+ years enterprise + AI consulting + product building</div>
+      <div class="accent-line"></div>
+
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;">
+
+        <!-- AI & Model Providers -->
+        <div class="arch-card">
+          <div class="arch-card-header">
+            <div class="arch-card-tag">Core Competency</div>
+            <div class="arch-card-title">AI Models & Providers</div>
+          </div>
+          <div class="arch-card-body" style="gap:8px;">
+            <div style="display:flex;flex-wrap:wrap;gap:7px;">
+              <span class="tech-pill" style="background:rgba(196,98,45,.15);border-color:rgba(196,98,45,.35);color:var(--founder-white);">Claude (Anthropic)</span>
+              <span class="tech-pill" style="background:rgba(196,98,45,.15);border-color:rgba(196,98,45,.35);color:var(--founder-white);">OpenAI GPT-4o</span>
+              <span class="tech-pill">Azure OpenAI</span>
+              <span class="tech-pill">DeepSeek</span>
+              <span class="tech-pill">Grok (xAI)</span>
+              <span class="tech-pill">Ollama</span>
+              <span class="tech-pill">Deep Infra</span>
+              <span class="tech-pill">Kimi K2</span>
+              <span class="tech-pill">HeyGen</span>
+              <span class="tech-pill">ElevenLabs</span>
+              <span class="tech-pill">Ideogram</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- AI Frameworks -->
+        <div class="arch-card">
+          <div class="arch-card-header">
+            <div class="arch-card-tag">Frameworks & Patterns</div>
+            <div class="arch-card-title">AI Frameworks</div>
+          </div>
+          <div class="arch-card-body" style="gap:8px;">
+            <div style="display:flex;flex-wrap:wrap;gap:7px;">
+              <span class="tech-pill" style="background:rgba(196,98,45,.15);border-color:rgba(196,98,45,.35);color:var(--founder-white);">ORBIT™ (Proprietary)</span>
+              <span class="tech-pill" style="background:rgba(196,98,45,.15);border-color:rgba(196,98,45,.35);color:var(--founder-white);">PITCH-XI™ (Proprietary)</span>
+              <span class="tech-pill">RAG Architecture</span>
+              <span class="tech-pill">ReAct Agents</span>
+              <span class="tech-pill">Chain-of-Thought</span>
+              <span class="tech-pill">Prompt Chaining</span>
+              <span class="tech-pill">Multi-Agent Systems</span>
+              <span class="tech-pill">MCP Protocol</span>
+              <span class="tech-pill">LangChain</span>
+              <span class="tech-pill">Agentic AI</span>
+              <span class="tech-pill">NIST AI RMF</span>
+              <span class="tech-pill">ISO/IEC 42001</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Automation & Orchestration -->
+        <div class="arch-card">
+          <div class="arch-card-header">
+            <div class="arch-card-tag">No-Code / Low-Code</div>
+            <div class="arch-card-title">Automation & Orchestration</div>
+          </div>
+          <div class="arch-card-body" style="gap:8px;">
+            <div style="display:flex;flex-wrap:wrap;gap:7px;">
+              <span class="tech-pill" style="background:rgba(196,98,45,.15);border-color:rgba(196,98,45,.35);color:var(--founder-white);">n8n (Self-Hosted)</span>
+              <span class="tech-pill">Make (Integromat)</span>
+              <span class="tech-pill">Zapier</span>
+              <span class="tech-pill">Airtable</span>
+              <span class="tech-pill">Buffer</span>
+              <span class="tech-pill">Retell AI</span>
+              <span class="tech-pill">Telnyx</span>
+              <span class="tech-pill">Cal.com</span>
+              <span class="tech-pill">Tavily</span>
+              <span class="tech-pill">Pexels API</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dev Stack -->
+        <div class="arch-card">
+          <div class="arch-card-header">
+            <div class="arch-card-tag">Product Development</div>
+            <div class="arch-card-title">Tech Stack</div>
+          </div>
+          <div class="arch-card-body" style="gap:8px;">
+            <div style="display:flex;flex-wrap:wrap;gap:7px;">
+              <span class="tech-pill" style="background:rgba(196,98,45,.15);border-color:rgba(196,98,45,.35);color:var(--founder-white);">Next.js 14</span>
+              <span class="tech-pill" style="background:rgba(196,98,45,.15);border-color:rgba(196,98,45,.35);color:var(--founder-white);">Supabase</span>
+              <span class="tech-pill">TypeScript</span>
+              <span class="tech-pill">Tailwind CSS</span>
+              <span class="tech-pill">Vercel</span>
+              <span class="tech-pill">Stripe</span>
+              <span class="tech-pill">Upstash Redis</span>
+              <span class="tech-pill">pgvector</span>
+              <span class="tech-pill">ShadCN UI</span>
+              <span class="tech-pill">React</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Infrastructure -->
+        <div class="arch-card">
+          <div class="arch-card-header">
+            <div class="arch-card-tag">Self-Hosted Infrastructure</div>
+            <div class="arch-card-title">DevOps & Hosting</div>
+          </div>
+          <div class="arch-card-body" style="gap:8px;">
+            <div style="display:flex;flex-wrap:wrap;gap:7px;">
+              <span class="tech-pill" style="background:rgba(196,98,45,.15);border-color:rgba(196,98,45,.35);color:var(--founder-white);">Docker</span>
+              <span class="tech-pill" style="background:rgba(196,98,45,.15);border-color:rgba(196,98,45,.35);color:var(--founder-white);">Portainer</span>
+              <span class="tech-pill">Nginx Proxy Manager</span>
+              <span class="tech-pill">Hostinger VPS</span>
+              <span class="tech-pill">Docker Compose</span>
+              <span class="tech-pill">SSL/TLS</span>
+              <span class="tech-pill">Cloudflare</span>
+              <span class="tech-pill">Railway</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dev Tools -->
+        <div class="arch-card">
+          <div class="arch-card-header">
+            <div class="arch-card-tag">AI-Assisted Development</div>
+            <div class="arch-card-title">Dev Tools & IDEs</div>
+          </div>
+          <div class="arch-card-body" style="gap:8px;">
+            <div style="display:flex;flex-wrap:wrap;gap:7px;">
+              <span class="tech-pill" style="background:rgba(196,98,45,.15);border-color:rgba(196,98,45,.35);color:var(--founder-white);">Kiro (AWS)</span>
+              <span class="tech-pill" style="background:rgba(196,98,45,.15);border-color:rgba(196,98,45,.35);color:var(--founder-white);">Antigravity IDE</span>
+              <span class="tech-pill">Cursor</span>
+              <span class="tech-pill">Claude Desktop</span>
+              <span class="tech-pill">n8n-MCP</span>
+              <span class="tech-pill">Prompt Engineering</span>
+              <span class="tech-pill">Claude.ai</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Enterprise & Program Management -->
+        <div class="arch-card">
+          <div class="arch-card-header">
+            <div class="arch-card-tag">25+ Years Experience</div>
+            <div class="arch-card-title">Enterprise & Program Management</div>
+          </div>
+          <div class="arch-card-body" style="gap:8px;">
+            <div style="display:flex;flex-wrap:wrap;gap:7px;">
+              <span class="tech-pill" style="background:rgba(196,98,45,.15);border-color:rgba(196,98,45,.35);color:var(--founder-white);">Program Management</span>
+              <span class="tech-pill" style="background:rgba(196,98,45,.15);border-color:rgba(196,98,45,.35);color:var(--founder-white);">Digital Transformation</span>
+              <span class="tech-pill">Stakeholder Management</span>
+              <span class="tech-pill">Change Management</span>
+              <span class="tech-pill">Vendor Management</span>
+              <span class="tech-pill">M&A Integration</span>
+              <span class="tech-pill">Global Payroll (51 Countries)</span>
+              <span class="tech-pill">Strategic Initiatives</span>
+              <span class="tech-pill">Risk Management</span>
+              <span class="tech-pill">SAFe Agile</span>
+              <span class="tech-pill">PMP Certified</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- AI Evaluation & Observability -->
+        <div class="arch-card">
+          <div class="arch-card-header">
+            <div class="arch-card-tag">Production AI</div>
+            <div class="arch-card-title">Evaluation & Observability</div>
+          </div>
+          <div class="arch-card-body" style="gap:8px;">
+            <div style="display:flex;flex-wrap:wrap;gap:7px;">
+              <span class="tech-pill" style="background:rgba(196,98,45,.15);border-color:rgba(196,98,45,.35);color:var(--founder-white);">DeepEval</span>
+              <span class="tech-pill" style="background:rgba(196,98,45,.15);border-color:rgba(196,98,45,.35);color:var(--founder-white);">Langfuse</span>
+              <span class="tech-pill">LMArena</span>
+              <span class="tech-pill">Artificial Analysis</span>
+              <span class="tech-pill">Galileo AI</span>
+              <span class="tech-pill">Arize AI</span>
+              <span class="tech-pill">Promptfoo</span>
+              <span class="tech-pill">W&B Weave</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Certifications -->
+      <div style="margin-top:24px;background:rgba(212,168,67,.06);border:1px solid rgba(212,168,67,.2);border-radius:var(--r-lg);padding:24px 28px;">
+        <div style="font-family:var(--f-display);font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--strategy-gold);margin-bottom:14px;">Certifications & Education</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;">
+          <div style="background:rgba(13,13,13,.5);border:1px solid rgba(212,168,67,.15);border-radius:var(--r-md);padding:12px 16px;">
+            <div style="font-family:var(--f-display);font-size:12px;font-weight:700;color:var(--founder-white);margin-bottom:3px;">UT Austin AI/ML</div>
+            <div style="font-family:var(--f-body);font-size:11px;color:rgba(247,245,242,.4);">Post Graduate Program · 2025</div>
+          </div>
+          <div style="background:rgba(13,13,13,.5);border:1px solid rgba(212,168,67,.15);border-radius:var(--r-md);padding:12px 16px;">
+            <div style="font-family:var(--f-display);font-size:12px;font-weight:700;color:var(--founder-white);margin-bottom:3px;">PMP Certified</div>
+            <div style="font-family:var(--f-body);font-size:11px;color:rgba(247,245,242,.4);">Project Management Professional</div>
+          </div>
+          <div style="background:rgba(13,13,13,.5);border:1px solid rgba(212,168,67,.15);border-radius:var(--r-md);padding:12px 16px;">
+            <div style="font-family:var(--f-display);font-size:12px;font-weight:700;color:var(--founder-white);margin-bottom:3px;">SAFe Agilist</div>
+            <div style="font-family:var(--f-body);font-size:11px;color:rgba(247,245,242,.4);">Scaled Agile Framework</div>
+          </div>
+          <div style="background:rgba(13,13,13,.5);border:1px solid rgba(212,168,67,.15);border-radius:var(--r-md);padding:12px 16px;">
+            <div style="font-family:var(--f-display);font-size:12px;font-weight:700;color:var(--founder-white);margin-bottom:3px;">Stanford</div>
+            <div style="font-family:var(--f-body);font-size:11px;color:rgba(247,245,242,.4);">Building Business Models</div>
+          </div>
+          <div style="background:rgba(13,13,13,.5);border:1px solid rgba(212,168,67,.15);border-radius:var(--r-md);padding:12px 16px;">
+            <div style="font-family:var(--f-display);font-size:12px;font-weight:700;color:var(--founder-white);margin-bottom:3px;">Udacity</div>
+            <div style="font-family:var(--f-body);font-size:11px;color:rgba(247,245,242,.4);">Product Management Nano Degree</div>
+          </div>
+          <div style="background:rgba(13,13,13,.5);border:1px solid rgba(212,168,67,.15);border-radius:var(--r-md);padding:12px 16px;">
+            <div style="font-family:var(--f-display);font-size:12px;font-weight:700;color:var(--founder-white);margin-bottom:3px;">NIIT</div>
+            <div style="font-family:var(--f-body);font-size:11px;color:rgba(247,245,242,.4);">Post Grad Diploma · Software Engineering</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Top Skills bar -->
+      <div style="margin-top:20px;display:flex;gap:10px;flex-wrap:wrap;align-items:center;">
+        <div style="font-family:var(--f-display);font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:rgba(247,245,242,.3);">LinkedIn Top Skills:</div>
+        <span class="tech-pill" style="background:rgba(196,98,45,.15);border-color:rgba(196,98,45,.35);color:var(--founder-white);">AI Product Development</span>
+        <span class="tech-pill" style="background:rgba(196,98,45,.15);border-color:rgba(196,98,45,.35);color:var(--founder-white);">AI Strategy</span>
+        <span class="tech-pill" style="background:rgba(196,98,45,.15);border-color:rgba(196,98,45,.35);color:var(--founder-white);">Agentic AI Apps</span>
+      </div>
+    </div>
+
+    <!-- ── SHUV PROFILE ──────────────────────────────────────── -->
+    <div id="panel-profile" class="panel">
+      <div class="panel-eyebrow">Who I Am</div>
+      <div class="panel-title">Shuv Profile</div>
+      <div class="panel-sub">Founder, OrbitumAI · Creator of ORBIT™ · McKinney, Texas</div>
+      <div class="accent-line"></div>
+
+      <!-- Bio Block -->
+      <div style="display:grid;grid-template-columns:2fr 1fr;gap:24px;margin-bottom:28px;">
+        <div style="background:rgba(247,245,242,.03);border:1px solid rgba(247,245,242,.08);border-radius:var(--r-lg);padding:28px 32px;">
+          <div style="font-family:var(--f-display);font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--warm-ember);margin-bottom:14px;">Summary</div>
+          <div style="font-family:var(--f-body);font-size:13px;color:rgba(247,245,242,.65);line-height:1.85;">
+            I'm not an AI expert. I'm an AI enthusiast who builds frameworks that make AI actually work. My name is <strong style="color:var(--founder-white);">Shuv</strong> — short for Subhashish — and I've spent <strong style="color:var(--founder-white);">25+ years</strong> inside Fortune 500 companies managing programs, projects, and transformations. I've managed <strong style="color:var(--founder-white);">$100M+ programs across 51 countries</strong>. I've sat in rooms where the stakes were real and the margin for error was zero.<br><br>
+            But the moment that changed everything for me wasn't in a boardroom. It was a book — <em style="color:var(--strategy-gold);">The Age of A.I. and Our Human Future.</em><br><br>
+            In 2023, I enrolled in 30+ courses and completed the UT Austin AI/ML certification program — countless late nights. Real experiments. Real failures. What I found: <strong style="color:var(--founder-white);">The difference between an AI that gives you garbage and an AI that gives you gold isn't the model. It's the method.</strong><br><br>
+            So I stopped looking for the right tools and started building the right frameworks. That framework is <strong style="color:var(--warm-ember);">ORBIT™</strong> — the engine behind OrbitumAI. My goal: <strong style="color:var(--founder-white);">Help 1 million people learn, build, and lead with AI.</strong>
+          </div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:12px;">
+          <div style="background:rgba(196,98,45,.08);border:1px solid rgba(196,98,45,.2);border-radius:var(--r-md);padding:18px 20px;">
+            <div style="font-family:var(--f-display);font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--warm-ember);margin-bottom:10px;">Quick Facts</div>
+            <div style="display:flex;flex-direction:column;gap:8px;">
+              <div style="font-family:var(--f-body);font-size:12px;color:rgba(247,245,242,.6);">📍 McKinney, Texas, USA</div>
+              <div style="font-family:var(--f-body);font-size:12px;color:rgba(247,245,242,.6);">✉️ shuvca@gmail.com</div>
+              <div style="font-family:var(--f-body);font-size:12px;color:rgba(247,245,242,.6);">🏢 Founder, OrbitumAI</div>
+              <div style="font-family:var(--f-body);font-size:12px;color:rgba(247,245,242,.6);">📅 25+ Years Experience</div>
+              <div style="font-family:var(--f-body);font-size:12px;color:rgba(247,245,242,.6);">🌍 51 Countries Managed</div>
+              <div style="font-family:var(--f-body);font-size:12px;color:rgba(247,245,242,.6);">💡 Founder Institute Mentor</div>
+            </div>
+          </div>
+          <div style="background:rgba(212,168,67,.06);border:1px solid rgba(212,168,67,.18);border-radius:var(--r-md);padding:18px 20px;">
+            <div style="font-family:var(--f-display);font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--strategy-gold);margin-bottom:10px;">LinkedIn Top Skills</div>
+            <div style="display:flex;flex-direction:column;gap:6px;">
+              <div style="font-family:var(--f-body);font-size:12px;color:rgba(247,245,242,.65);">⬡ AI Framework Creation</div>
+              <div style="font-family:var(--f-body);font-size:12px;color:rgba(247,245,242,.65);">⬡ AI Product Development</div>
+              <div style="font-family:var(--f-body);font-size:12px;color:rgba(247,245,242,.65);">⬡ AI Strategy</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Experience Timeline -->
+      <div style="font-family:var(--f-display);font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--warm-ember);margin-bottom:16px;">Experience</div>
+      <div style="display:flex;flex-direction:column;gap:12px;margin-bottom:28px;">
+
+        <div style="display:flex;gap:16px;background:rgba(247,245,242,.03);border:1px solid rgba(247,245,242,.07);border-radius:var(--r-md);padding:18px 22px;">
+          <div style="min-width:90px;font-family:var(--f-display);font-size:10px;font-weight:700;color:rgba(247,245,242,.3);padding-top:2px;">2024 – Present</div>
+          <div>
+            <div style="font-family:var(--f-display);font-size:14px;font-weight:800;color:var(--founder-white);">OrbitumAI</div>
+            <div style="font-family:var(--f-accent);font-style:italic;font-size:12px;color:var(--strategy-gold);margin-bottom:6px;">Founder & AI Consultant · McKinney, TX</div>
+            <div style="font-family:var(--f-body);font-size:12px;color:rgba(247,245,242,.55);line-height:1.6;">Founded AI consulting practice helping non-technical founders and SMBs harness AI. Built AILeadCalling (voice AI platform), BrewongoAI/Blogtly (AI blog SaaS), and LexCoworkAI (legal productivity). Creator of ORBIT™ and PITCH-XI™ frameworks. Operating under BrewOnGo.AI LLC.</div>
+          </div>
+        </div>
+
+        <div style="display:flex;gap:16px;background:rgba(247,245,242,.03);border:1px solid rgba(247,245,242,.07);border-radius:var(--r-md);padding:18px 22px;">
+          <div style="min-width:90px;font-family:var(--f-display);font-size:10px;font-weight:700;color:rgba(247,245,242,.3);padding-top:2px;">2021 – 2024</div>
+          <div>
+            <div style="font-family:var(--f-display);font-size:14px;font-weight:800;color:var(--founder-white);">Wesco Distribution</div>
+            <div style="font-family:var(--f-accent);font-style:italic;font-size:12px;color:var(--strategy-gold);margin-bottom:6px;">Program Manager · Dallas, TX</div>
+            <div style="font-family:var(--f-body);font-size:12px;color:rgba(247,245,242,.55);line-height:1.6;">Directed global payroll transformation across 51 countries over 24 months with 24 vendors. Managed 3 M&A integrations affecting 7,500 employees. Spearheaded LMS Cornerstone implementation for 25,000 employees. Led vendor selection across IT, HR and Marketing.</div>
+          </div>
+        </div>
+
+        <div style="display:flex;gap:16px;background:rgba(247,245,242,.03);border:1px solid rgba(247,245,242,.07);border-radius:var(--r-md);padding:18px 22px;">
+          <div style="min-width:90px;font-family:var(--f-display);font-size:10px;font-weight:700;color:rgba(247,245,242,.3);padding-top:2px;">2021 – 2022</div>
+          <div>
+            <div style="font-family:var(--f-display);font-size:14px;font-weight:800;color:var(--founder-white);">Founder Institute</div>
+            <div style="font-family:var(--f-accent);font-style:italic;font-size:12px;color:var(--strategy-gold);margin-bottom:6px;">Mentor · United States</div>
+            <div style="font-family:var(--f-body);font-size:12px;color:rgba(247,245,242,.55);line-height:1.6;">Mentored next-generation founders through transformational moments — product strategy, business model design, investor readiness, and go-to-market execution.</div>
+          </div>
+        </div>
+
+        <div style="display:flex;gap:16px;background:rgba(247,245,242,.03);border:1px solid rgba(247,245,242,.07);border-radius:var(--r-md);padding:18px 22px;">
+          <div style="min-width:90px;font-family:var(--f-display);font-size:10px;font-weight:700;color:rgba(247,245,242,.3);padding-top:2px;">2019 – 2021</div>
+          <div>
+            <div style="font-family:var(--f-display);font-size:14px;font-weight:800;color:var(--founder-white);">Self-Employed</div>
+            <div style="font-family:var(--f-accent);font-style:italic;font-size:12px;color:var(--strategy-gold);margin-bottom:6px;">Startups Consultant · Frisco, TX</div>
+            <div style="font-family:var(--f-body);font-size:12px;color:rgba(247,245,242,.55);line-height:1.6;">Advisory services to startups across market research, recruitment, business model design, ecosystem building, MVP development, and investor relations.</div>
+          </div>
+        </div>
+
+        <div style="display:flex;gap:16px;background:rgba(247,245,242,.03);border:1px solid rgba(247,245,242,.07);border-radius:var(--r-md);padding:18px 22px;">
+          <div style="min-width:90px;font-family:var(--f-display);font-size:10px;font-weight:700;color:rgba(247,245,242,.3);padding-top:2px;">2016 – 2017</div>
+          <div>
+            <div style="font-family:var(--f-display);font-size:14px;font-weight:800;color:var(--founder-white);">Genpact</div>
+            <div style="font-family:var(--f-accent);font-style:italic;font-size:12px;color:var(--strategy-gold);margin-bottom:6px;">Operations Program Manager · Torrance, CA</div>
+            <div style="font-family:var(--f-body);font-size:12px;color:rgba(247,245,242,.55);line-height:1.6;">Managed HQ relocation of a major automobile company from CA to TX across 30 business units. Developed 7,000+ knowledge assets through a people program. Designed and implemented process and technology solutions with comprehensive change management.</div>
+          </div>
+        </div>
+
+        <div style="display:flex;gap:16px;background:rgba(247,245,242,.03);border:1px solid rgba(247,245,242,.07);border-radius:var(--r-md);padding:18px 22px;">
+          <div style="min-width:90px;font-family:var(--f-display);font-size:10px;font-weight:700;color:rgba(247,245,242,.3);padding-top:2px;">2007 – 2013</div>
+          <div>
+            <div style="font-family:var(--f-display);font-size:14px;font-weight:800;color:var(--founder-white);">Thinkbrik Knowledge Solutions</div>
+            <div style="font-family:var(--f-accent);font-style:italic;font-size:12px;color:var(--strategy-gold);margin-bottom:6px;">Entrepreneur / Co-Founder · New Delhi, India</div>
+            <div style="font-family:var(--f-body);font-size:12px;color:rgba(247,245,242,.55);line-height:1.6;">Co-founded startup specializing in tech, digital marketing, e-learning, blended training, and software development. Led business development, customer relationships, project management, and IT infrastructure across multiple industries.</div>
+          </div>
+        </div>
+
+        <div style="display:flex;gap:16px;background:rgba(247,245,242,.03);border:1px solid rgba(247,245,242,.07);border-radius:var(--r-md);padding:18px 22px;">
+          <div style="min-width:90px;font-family:var(--f-display);font-size:10px;font-weight:700;color:rgba(247,245,242,.3);padding-top:2px;">2001 – 2007</div>
+          <div>
+            <div style="font-family:var(--f-display);font-size:14px;font-weight:800;color:var(--founder-white);">Intel</div>
+            <div style="font-family:var(--f-accent);font-style:italic;font-size:12px;color:var(--strategy-gold);margin-bottom:6px;">IT Network Specialist – South East Asia · India</div>
+            <div style="font-family:var(--f-body);font-size:12px;color:rgba(247,245,242,.55);line-height:1.6;">Managed IT and end-user services across Southeast Asia. Channel partner support, vendor relations, IT asset management. Led regional IT projects — contract negotiations, SLA compliance, budget and schedule management.</div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Education -->
+      <div style="font-family:var(--f-display);font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--warm-ember);margin-bottom:16px;">Education</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin-bottom:24px;">
+        <div style="background:rgba(247,245,242,.03);border:1px solid rgba(212,168,67,.18);border-radius:var(--r-md);padding:16px 18px;">
+          <div style="font-family:var(--f-display);font-size:13px;font-weight:800;color:var(--founder-white);margin-bottom:3px;">UT Austin</div>
+          <div style="font-family:var(--f-body);font-size:11px;color:var(--strategy-gold);margin-bottom:4px;">AI/ML: Business Applications</div>
+          <div style="font-family:var(--f-body);font-size:10px;color:rgba(247,245,242,.35);">March – August 2025</div>
+        </div>
+        <div style="background:rgba(247,245,242,.03);border:1px solid rgba(247,245,242,.07);border-radius:var(--r-md);padding:16px 18px;">
+          <div style="font-family:var(--f-display);font-size:13px;font-weight:800;color:var(--founder-white);margin-bottom:3px;">Stanford University</div>
+          <div style="font-family:var(--f-body);font-size:11px;color:rgba(247,245,242,.5);margin-bottom:4px;">Building Business Models</div>
+          <div style="font-family:var(--f-body);font-size:10px;color:rgba(247,245,242,.35);">Certificate Program</div>
+        </div>
+        <div style="background:rgba(247,245,242,.03);border:1px solid rgba(247,245,242,.07);border-radius:var(--r-md);padding:16px 18px;">
+          <div style="font-family:var(--f-display);font-size:13px;font-weight:800;color:var(--founder-white);margin-bottom:3px;">Gauhati University</div>
+          <div style="font-family:var(--f-body);font-size:11px;color:rgba(247,245,242,.5);margin-bottom:4px;">Bachelor's · Business Administration</div>
+          <div style="font-family:var(--f-body);font-size:10px;color:rgba(247,245,242,.35);">Undergraduate</div>
+        </div>
+        <div style="background:rgba(247,245,242,.03);border:1px solid rgba(247,245,242,.07);border-radius:var(--r-md);padding:16px 18px;">
+          <div style="font-family:var(--f-display);font-size:13px;font-weight:800;color:var(--founder-white);margin-bottom:3px;">NIIT</div>
+          <div style="font-family:var(--f-body);font-size:11px;color:rgba(247,245,242,.5);margin-bottom:4px;">Post Grad Diploma · Software Engineering</div>
+          <div style="font-family:var(--f-body);font-size:10px;color:rgba(247,245,242,.35);">Software & Networking</div>
+        </div>
+        <div style="background:rgba(247,245,242,.03);border:1px solid rgba(247,245,242,.07);border-radius:var(--r-md);padding:16px 18px;">
+          <div style="font-family:var(--f-display);font-size:13px;font-weight:800;color:var(--founder-white);margin-bottom:3px;">Udacity</div>
+          <div style="font-family:var(--f-body);font-size:11px;color:rgba(247,245,242,.5);margin-bottom:4px;">Product Management Nano Degree</div>
+          <div style="font-family:var(--f-body);font-size:10px;color:rgba(247,245,242,.35);">Product Management</div>
+        </div>
+      </div>
+
+      <!-- Certifications -->
+      <div style="font-family:var(--f-display);font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--warm-ember);margin-bottom:16px;">Certifications</div>
+      <div style="display:flex;flex-wrap:wrap;gap:10px;">
+        <div style="background:rgba(196,98,45,.1);border:1px solid rgba(196,98,45,.25);border-radius:var(--r-md);padding:10px 16px;font-family:var(--f-display);font-size:12px;font-weight:700;color:var(--founder-white);">PMP — Project Management Professional</div>
+        <div style="background:rgba(196,98,45,.1);border:1px solid rgba(196,98,45,.25);border-radius:var(--r-md);padding:10px 16px;font-family:var(--f-display);font-size:12px;font-weight:700;color:var(--founder-white);">SAFe Agilist Certification</div>
+        <div style="background:rgba(196,98,45,.1);border:1px solid rgba(196,98,45,.25);border-radius:var(--r-md);padding:10px 16px;font-family:var(--f-display);font-size:12px;font-weight:700;color:var(--founder-white);">Strategic Talent Acquisition (STA)</div>
+        <div style="background:rgba(196,98,45,.1);border:1px solid rgba(196,98,45,.25);border-radius:var(--r-md);padding:10px 16px;font-family:var(--f-display);font-size:12px;font-weight:700;color:var(--founder-white);">Preparing to Manage Human Resources</div>
+        <div style="background:rgba(196,98,45,.1);border:1px solid rgba(196,98,45,.25);border-radius:var(--r-md);padding:10px 16px;font-family:var(--f-display);font-size:12px;font-weight:700;color:var(--founder-white);">How to Finance & Grow Your Startup – Without VC</div>
+      </div>
+
     </div>
 
     <!-- ── LINKEDIN ───────────────────────────────────────────── -->
